@@ -1,0 +1,144 @@
+@font-face{
+    font-family: Ale;
+    src: url(fonts/AlegreyaSans-Medium.otf)
+}
+
+@font-face{
+    font-family: Mono;
+    src: url(fonts/MomcakeBold-WyonA.otf)
+}
+
+body {
+    text-align: center;
+    background-color:  #018938;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#header-text{
+    text-align: start;
+    color:F7EF0E;
+    text-shadow: 0 0 5px black;
+    font-size: 50px;
+    padding: 100px 0px 0px 0px;
+    margin-left: 50px; 
+}
+
+#header{
+    background: url(images/cityhall.jpg);
+    background-size: cover;
+    border-radius: 20px 20px 0 0px;    
+    height: 315px;
+    border-top: 15px solid #fdfab0; 
+    margin: 10px 10px 0px 10px;
+}
+
+.body{
+    background: #065B2D;
+    padding: 20px 20px;
+    background-size: cover;
+    box-shadow: 0 0 0 11px white, 0 0 0 22px #FDFAB0;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+}
+
+.body-main {
+    font-size: 50px;
+    font-weight: ;
+    padding: 0 auto; 
+    width: 10000px;
+    max-width: 10000px; 
+}
+
+.text-box {
+    font-family: 'Inter', sans-serif;
+    font-weight: 20;
+    font-size: 15px;
+    
+}
+
+h3 {
+   font-family: 'Inter', sans-serif;
+    font-weight: 700;
+ 
+}
+
+#footer{
+    background: #fdfab0;
+    color: #00444D;
+    height: 50px;
+    font-size: 20px;
+    font-weight: ;
+    padding: 15px 0 0 0 ;
+    box-shadow: 0 0 0 11px #fdfab0 , 0 0 0 22px #fdfab0;
+    }
+    
+a{
+    color: #00444D;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-size: cover; 
+    margin: 0 auto;
+}
+
+.img-set{
+    flex: 1;
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    background: #065B2D;
+    border-radius: 25px;
+    padding: 20px 30px;
+}
+
+.img-1{
+    background-image: url(images/promenade.jpg);
+}
+
+.img-2{
+    background-image: url(images/museo.png);
+}
+.img-3{
+    background-image: url(images/kadiwa.jpg);
+}
+.img-4{
+    background-image: url(images/church.JPG);
+}
+.img-5{
+    background-image: url(images/coco.jpg);
+}
+
+.img-set p{
+    margin-bottom: 40px; 
+}
+
+.img-set h2{
+    font-size: 50px;
+    
+}
+
+.img-set a{
+    color: #00444D;
+    background: #FDFAB0;
+    padding: 15px 20px;
+    margin: 20px 15px;
+    border-radius: 10px; 
+    font-weight: 900;
+    text-shadow: 0 0 1px black;
+    text-decoration: none;
+}
+
+.img-set:hover{
+    background: #018938;
+    transform: scale(1.03);
+    transition: all 1s ease;    
+}
